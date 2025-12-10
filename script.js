@@ -38,7 +38,7 @@ form.addEventListener("submit", function(e) {
         if (!emailValue.match(emailPattern)) {
             erroremail.innerText = "Please enter a valid email!";
             erroremail.style.color = "red";
-          
+
         }
     }
 
