@@ -2,11 +2,17 @@
     font: 12px;
     font-family: poppins;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+overflow: hidden;   /* Scrollbar hat jayega */
+}
 .mainbox{
 display: flex;
 flex-direction: column;
 align-items: center;
-
+justify-content: center;
 padding: 100px;
 background-image: url(bgmain.jpg);
 background-size: cover;
