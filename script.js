@@ -55,6 +55,4 @@ form.addEventListener("submit", function(e) {
 
    
 
-    // Success
-    alert("Form submitted successfully!");
 });
