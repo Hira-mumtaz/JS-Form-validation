@@ -15,9 +15,9 @@ form.addEventListener("submit", function(e) {
     erroremail.innerText = "";
     errorpasswod.innerText = "";
 
-    let nameValue = name.value.trim();
-    let emailValue = email.value.trim();
-    let passwordValue = password.value.trim();
+    let nameValue = name.value;
+    let emailValue = email.value;
+    let passwordValue = password.value;
 
     let hasError = false;  // Track karega koi error hai ya nahi
 
