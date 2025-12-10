@@ -19,26 +19,26 @@ form.addEventListener("submit", function(e) {
     let emailValue = email.value;
     let passwordValue = password.value;
 
-    let hasError = false;  // Track karega koi error hai ya nahi
+    
 
     // Name check
     if (nameValue === "") {
         errorName.innerText = "Please enter your name!";
         errorName.style.color = "red";
-        hasError = true;
+        
     }
 
     // Email check
     if (emailValue === "") {
         erroremail.innerText = "Please enter your email!";
         erroremail.style.color = "red";
-        hasError = true;
+       
     } else {
         let emailPattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
         if (!emailValue.match(emailPattern)) {
             erroremail.innerText = "Please enter a valid email!";
             erroremail.style.color = "red";
-            hasError = true;
+          
         }
     }
 
@@ -46,15 +46,14 @@ form.addEventListener("submit", function(e) {
     if (passwordValue === "") {
         errorpasswod.innerText = "Password is required!";
         errorpasswod.style.color = "red";
-        hasError = true;
+       
     } else if (passwordValue.length < 6) {
         errorpasswod.innerText = "Password must be at least 6 characters!";
         errorpasswod.style.color = "red";
-        hasError = true;
+        
     }
 
-    // Agar error hai to return karo
-    if (hasError) return;
+   
 
     // Success
     alert("Form submitted successfully!");
