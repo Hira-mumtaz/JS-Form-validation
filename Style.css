@@ -19,6 +19,14 @@ background-size: cover;
 height: 100vh;
 margin: -77px;
 }
+#email{
+    position: relative;
+}
+.cstmicon{
+  position: absolute;
+  top: 437px;
+  left: 375px;
+}
 form{
     background-image: url(bg2.jpg);
     background-size: cover;
@@ -44,11 +52,11 @@ label{
     padding: 10px;
 }
 #email{
-    width: 650px;
+    width: 629px;
     height: 30px;
     border: 1px solid rgb(144, 144, 144);
     border-radius: 6px;
-    padding: 10px;
+    padding: 10px 10px 10px 30px;
 }
 #password{
     width: 650px;
