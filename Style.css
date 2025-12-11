@@ -33,13 +33,13 @@ form{
     background-position: center;
     background-repeat: no-repeat;
     background-position: center bottom;
-    width: 700px;
+    
     border: 1px solid black;
     border-radius: 12px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 50px 0px 50px 50px;
+    padding: 50px;
 }
 label{
     color: rgb(255, 255, 255);
